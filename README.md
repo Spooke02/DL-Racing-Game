@@ -1,7 +1,4 @@
-## DL-Racing-Game
 # Deep Learning Car Racing Game
-
-# Racing DQN Project
 
 ![Racing DQN Project](docs/images/racing_track.png)
 
