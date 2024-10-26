@@ -7,11 +7,9 @@ This project simulates a simple racing game environment where an agent, implemen
 2. [Getting Started](#getting-started)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Project Structure](#project-structure)
-6. [Understanding the Code](#understanding-the-code)
-7. [Results and Visualization](#results-and-visualization)
-8. [Future Improvements](#future-improvements)
-9. [License](#license)
+5. [Results and Visualization](#results-and-visualization)
+6. [Future Improvements](#future-improvements)
+7. [License](#license)
 
 ## Project Overview
 
@@ -45,14 +43,14 @@ A Python virtual environment is recommended for dependency management.
    pip install -r requirements.txt
    ```
    
-3. **Usage**:
+## Usage
    To start training the DQN agent and visualize each episode step-by-step:
    ```bash
    python src/main.py
    ```
    During training, a visualization of the agent’s trajectory and the track boundaries will display. The agent aims to stay within boundaries by learning through episodes.
    
-5. **Configuring Hyperparameters**:
+## Configuring Hyperparameters
    To adjust training parameters like the number of episodes, epsilon decay, or learning rate, modify the constants at the top of main.py.
 
 ## Results and Visualization
